@@ -1,6 +1,7 @@
 --- 
 title: "Island Vital Signs: 
 Turning satellite observations into actionable insights"
+short_title: "Island Vital Signs"
 author: "Mikayla Call (Hobart and William Smith Colleges), Elke Windschitl (Island Conservation), Brad Cosentino (Hobart and William Smith Colleges), Christy Wails (South Dakota State University), and David Will (Island Conservation)"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
