@@ -4,18 +4,18 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Chapter 1 Introduction | Island Vital Signs: Turning satellite observations into actionable insights</title>
-  <meta name="description" content="Chapter 1 Introduction | Island Vital Signs: Turning satellite observations into actionable insights" />
+  <title>Chapter 7 Case Study: Santa Cruz Island, USA | Island Vital Signs: Turning satellite observations into actionable insights</title>
+  <meta name="description" content="Chapter 7 Case Study: Santa Cruz Island, USA | Island Vital Signs: Turning satellite observations into actionable insights" />
   <meta name="generator" content="bookdown 0.46 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Chapter 1 Introduction | Island Vital Signs: Turning satellite observations into actionable insights" />
+  <meta property="og:title" content="Chapter 7 Case Study: Santa Cruz Island, USA | Island Vital Signs: Turning satellite observations into actionable insights" />
   <meta property="og:type" content="book" />
   
   
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Chapter 1 Introduction | Island Vital Signs: Turning satellite observations into actionable insights" />
+  <meta name="twitter:title" content="Chapter 7 Case Study: Santa Cruz Island, USA | Island Vital Signs: Turning satellite observations into actionable insights" />
   
   
   
@@ -23,15 +23,15 @@
 <meta name="author" content="Mikayla Call (Hobart and William Smith Colleges), Elke Windschitl (Island Conservation), Brad Cosentino (Hobart and William Smith Colleges), Christy Wails (South Dakota State University), and David Will (Island Conservation)" />
 
 
-<meta name="date" content="2026-04-16" />
+<meta name="date" content="2026-04-21" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="index.html"/>
-<link rel="next" href="methods.html"/>
+<link rel="prev" href="case-study-pinzón-island-ecu.html"/>
+
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -52,6 +52,8 @@
 <link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
 <link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
 <script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+<script src="libs/kePrint-0.0.1/kePrint.js"></script>
+<link href="libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
 
 
 
@@ -82,7 +84,15 @@
 <li class="chapter" data-level="0.2" data-path="index.html"><a href="index.html#contacts"><i class="fa fa-check"></i><b>0.2</b> Contacts</a></li>
 </ul></li>
 <li class="chapter" data-level="1" data-path="introduction.html"><a href="introduction.html"><i class="fa fa-check"></i><b>1</b> Introduction</a></li>
-<li class="chapter" data-level="2" data-path="methods.html"><a href="methods.html"><i class="fa fa-check"></i><b>2</b> Methods</a></li>
+<li class="chapter" data-level="2" data-path="methods.html"><a href="methods.html"><i class="fa fa-check"></i><b>2</b> Methods</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="methods.html"><a href="methods.html#islands-with-available-data"><i class="fa fa-check"></i><b>2.1</b> Islands with available data</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="application-walkthrough.html"><a href="application-walkthrough.html"><i class="fa fa-check"></i><b>3</b> Application Walkthrough</a></li>
+<li class="chapter" data-level="4" data-path="use-case-studies-introduction.html"><a href="use-case-studies-introduction.html"><i class="fa fa-check"></i><b>4</b> Use Case Studies: Introduction</a></li>
+<li class="chapter" data-level="5" data-path="case-study-mona-island-pri.html"><a href="case-study-mona-island-pri.html"><i class="fa fa-check"></i><b>5</b> Case Study: Mona Island, PRI</a></li>
+<li class="chapter" data-level="6" data-path="case-study-pinzón-island-ecu.html"><a href="case-study-pinzón-island-ecu.html"><i class="fa fa-check"></i><b>6</b> Case Study: Pinzón Island, ECU</a></li>
+<li class="chapter" data-level="7" data-path="case-study-santa-cruz-island-usa.html"><a href="case-study-santa-cruz-island-usa.html"><i class="fa fa-check"></i><b>7</b> Case Study: Santa Cruz Island, USA</a></li>
 <li class="divider"></li>
 <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
 </ul>
@@ -102,12 +112,8 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="introduction" class="section level1 hasAnchor" number="1">
-<h1><span class="header-section-number">Chapter 1</span> Introduction<a href="introduction.html#introduction" class="anchor-section" aria-label="Anchor link to header"></a></h1>
-<p>Islands make up only 6.7% of the Earth’s land surface area, but support approximately 20% of the world’s biodiversity <a href="https://www.sciencedirect.com/science/article/pii/S2351989421003978?via%3Dihub">[1]</a>. Many of these species are endemic, meaning they are uniquely adapted to island life and found nowhere else in the world. Due to their isolation and evolutionary uniqueness, island ecosystems are fragile and highly vulnerable to environmental disturbance. As a result, islands support a high density of imperiled species, relative to continents <a href="https://academic.oup.com/bioscience/article-abstract/65/6/592/301848">[2]</a>.</p>
-<p>Protecting island ecosystems is crucial for conserving biodiversity. However, due to their geographic isolation and remoteness, many islands lack the long-term ecological data that is needed to support conservation and restoration. Without these data, land managers cannot monitor ecosystem change caused by invasive species, natural resource use, or climate change. They also cannot assess outcomes of targeted conservation actions, such as the removal of an invasive species, planting of native vegetation, or reintroduction of an extirpated species.</p>
-<p>Satellites provide us with large-scale, long-term observations of the Earth’s surface. When data collected from ground surveys are sparse, outdated, or unavailable, satellite observations can fill the data gap, helping us better track ecosystem health and function. Island Vital Signs utilizes these satellite data to monitor change in island vegetation communities and predict long-term vegetation trends. We provide these data in an online app, where end-users can visualize vegetation change on over 50 islands worldwide and download rasters that can be used in mapping applications during fieldwork, including ESRI/ArcGIS products, QGIS, and Avenza.</p>
-<p><img src="images/satellite-imagery.jpg" alt="" width="75%" style="display: block; margin: auto;" /></p>
+<div id="case-study-santa-cruz-island-usa" class="section level1 hasAnchor" number="7">
+<h1><span class="header-section-number">Chapter 7</span> Case Study: Santa Cruz Island, USA<a href="case-study-santa-cruz-island-usa.html#case-study-santa-cruz-island-usa" class="anchor-section" aria-label="Anchor link to header"></a></h1>
 
 </div>
             </section>
@@ -115,8 +121,8 @@
           </div>
         </div>
       </div>
-<a href="index.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="methods.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="case-study-pinzón-island-ecu.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
@@ -147,7 +153,7 @@ gitbook.start({
     "size": 2
   },
   "edit": {
-    "link": "https://github.com/Island-Conservation/island-vital-signs-bookdown/edit/main/01-introduction.Rmd",
+    "link": "https://github.com/Island-Conservation/island-vital-signs-bookdown/edit/main/07-SantaCruz.Rmd",
     "text": "Edit"
   },
   "history": {
@@ -155,7 +161,7 @@ gitbook.start({
     "text": null
   },
   "view": {
-    "link": "https://github.com/Island-Conservation/island-vital-signs-bookdown/blob/main/01-introduction.Rmd",
+    "link": "https://github.com/Island-Conservation/island-vital-signs-bookdown/blob/main/07-SantaCruz.Rmd",
     "text": null
   },
   "download": null,
