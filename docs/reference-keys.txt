@@ -5,3 +5,8 @@ introduction
 methods
 analytical-workflow
 islands-with-available-data
+application-walkthrough
+use-case-studies-introduction
+case-study-mona-island-puerto-rico
+case-study-pinzón-island-ecuador
+case-study-santa-cruz-island-usa
